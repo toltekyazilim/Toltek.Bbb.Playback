@@ -2,6 +2,8 @@
 
 Clone this repository, install the dependencies and deploy
 ```
+cd /home/toltek/player
+apt install npm
 git clone https://github.com/toltekyazilim/bbb-playback.git
 cd bbb-playback
 npm install
