@@ -1,4 +1,4 @@
-location /playback/presentation/2.3 {
-  root /var/bigbluebutton;
-  try_files $uri /playback/presentation/2.3/index.html;
+location /player {
+  root /home/toltek/player;
+  try_files $uri /2.3/index.html;
 }
